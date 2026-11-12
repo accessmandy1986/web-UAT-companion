@@ -1,0 +1,98 @@
+{
+  "_note": "UAT TEST ACCOUNTS for uat.example.com only. Local file - do not share, commit or paste into tickets. Refer to accounts by key (e.g. 'gold') in test records.",
+  "default_member": "silver",
+  "site_gate": {
+    "url": "https://uat.example.com/en",
+    "password": "<ask the UAT lead>",
+    "_note": "Environment access password (gate page shown before the site loads)"
+  },
+  "accounts": {
+    "silver": {
+      "tier": "SILVER",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Silver",
+      "language": "E",
+      "enrollment_code": "NHWEB",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 0
+    },
+    "gold": {
+      "tier": "GOLD",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Gold",
+      "language": "ES",
+      "enrollment_code": "WTI",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 50
+    },
+    "platinum": {
+      "tier": "PLATINUM",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Platinum-Test",
+      "language": "PT",
+      "enrollment_code": "WAN",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 110
+    },
+    "titanium": {
+      "tier": "TITANIUM",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Titanium-Test",
+      "language": "E",
+      "enrollment_code": "MIAPP",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 225
+    },
+    "red": {
+      "tier": "RED",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Red-Test",
+      "language": "E",
+      "enrollment_code": "WAV",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 375
+    },
+    "shared_brand": {
+      "tier": "SILVER",
+      "description": "Shared brand profile",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Test",
+      "last_name": "Titanium-One",
+      "language": "E",
+      "enrollment_code": "WAN",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>"
+    },
+    "redemption": {
+      "tier": "SILVER",
+      "description": "D$ redemption testing profile",
+      "email": "<email>",
+      "password": "<password>",
+      "first_name": "Redemption",
+      "last_name": "Five",
+      "language": "ES",
+      "enrollment_code": "NHWEB",
+      "profile_id": "<profile_id>",
+      "membership_card_no": "<membership_card_no>",
+      "d_balance": 10000
+    }
+  },
+  "test_cards": [],
+  "_test_cards_note": "Add provider test cards here when supplied. Card entry and payment submission on the UAT site are done by a human tester (see README)."
+}

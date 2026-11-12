@@ -1,0 +1,9 @@
+# Never share or commit credentials
+config/accounts.local.json
+config/*.local.json
+runs/
+defects/
+playwright/.env
+playwright/node_modules/
+playwright/test-results/
+playwright/playwright-report/

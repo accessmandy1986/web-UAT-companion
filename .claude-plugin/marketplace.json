@@ -1,0 +1,16 @@
+{
+  "name": "web-uat-companion",
+  "owner": {
+    "name": "accessmandy1986"
+  },
+  "plugins": [
+    {
+      "name": "web-uat-companion",
+      "source": "./web-uat-companion",
+      "description": "Automated UAT for a website: Excel test scripts -> Claude in Chrome execution -> evidence, Excel results, Jira defect drafts, Playwright regression export."
+    }
+  ],
+  "metadata": {
+    "description": "QA tools: automated UAT testing with Claude in Chrome, Jira defect drafting and Playwright export."
+  }
+}

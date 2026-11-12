@@ -1,0 +1,7 @@
+{
+  "name": "web-uat-companion",
+  "version": "0.1.0",
+  "description": "Automated UAT for a website: reads the Excel UAT workbook, executes test scripts with Claude in Chrome, captures evidence, writes results back to Excel, drafts Jira defects in the UAT defect template, and exports passing tests to Playwright.",
+  "author": {"name": "accessmandy1986"},
+  "keywords": ["uat", "qa", "testing", "jira", "playwright", "web"]
+}

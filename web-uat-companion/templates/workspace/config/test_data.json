@@ -1,0 +1,34 @@
+{
+  "_note": "Example only - list the properties that exist in your UAT environment. Test runs search, book and assert ONLY against these; other destinations returning 0 results are NOT defects.",
+  "default_destination": "City A",
+  "default_property": "PROP1",
+  "properties": [
+    {
+      "code": "PROP1",
+      "name": "Example Resort City A",
+      "country": "Country A",
+      "city": "City A",
+      "brand": "Brand A",
+      "region": "REGION1",
+      "pms": "PMS1"
+    },
+    {
+      "code": "PROP2",
+      "name": "Example Hotel City B",
+      "country": "Country B",
+      "city": "City B",
+      "brand": "Brand B",
+      "region": "REGION2",
+      "pms": "PMS2"
+    }
+  ],
+  "by_region": {
+    "REGION1": {
+      "default_destination": "City A"
+    },
+    "REGION2": {
+      "default_destination": "City B"
+    }
+  },
+  "suggested_by_scenario": {}
+}

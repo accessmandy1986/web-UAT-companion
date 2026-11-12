@@ -1,0 +1,29 @@
+{
+  "base_url": "https://uat.example.com/en",
+  "environment_name": "UAT",
+  "uat_cycle": "UAT Cycle 2",
+  "source_workbook": "../../UAT Test Cases.xlsx",
+  "sheets": {
+    "plan": "2. Test Plan & Scenario -14 Aug",
+    "scripts": "3. Test Script - 14 Aug"
+  },
+  "tester_name": "Claude (automated UAT)",
+  "viewports": {
+    "desktop": {"width": 1440, "height": 900, "workbook_group": "Desktop", "plan_flag": "Web", "jira_prefix": "[Web]"},
+    "mobile":  {"width": 390,  "height": 844, "workbook_group": "Webview", "plan_flag": "Web Resp", "jira_prefix": "[Web Resp]"}
+  },
+  "jira": {
+    "project_key": "PROJ",
+    "issue_type": "Bug",
+    "parent_epic": "PROJ-100",
+    "tester_region_field": {"name": "Tester region", "value": "AMEA"},
+    "labels": ["UAT-Cycle-2", "auto-uat", "claude-tester"],
+    "description_heading": "UAT Cycle 2 Functional Defect",
+    "require_human_approval": true
+  },
+  "policies": {
+    "payment_submission": "human",
+    "otp_captcha_social_login": "human",
+    "native_app_steps": "out_of_scope"
+  }
+}
